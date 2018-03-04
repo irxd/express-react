@@ -10,6 +10,9 @@ var users = require('./routes/users');
 
 var app = express();
 
+// serve static files from the React
+app.use(express.static(path.join(__dirname, 'client/build')));
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');

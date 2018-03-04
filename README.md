@@ -1,6 +1,9 @@
 # express-react
 Express.js + React.js boilerplate with minimal configuration. Backend side is built with express-generator and frontend side is built with create-react-app
 
+# Demo
+[https://reaxpress.herokuapp.com/](https://reaxpress.herokuapp.com/)
+
 # Port
 Both backend and frontend are forced to running on these port:
  - Express: 3000

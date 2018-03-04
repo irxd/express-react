@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "set PORT=3000 && node ./bin/www"
+    "start": "set PORT=3000 && node ./bin/www",
+    "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   },
   "dependencies": {
     "body-parser": "~1.18.2",

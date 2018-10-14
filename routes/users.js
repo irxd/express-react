@@ -1,9 +1,9 @@
-var express = require('express');
-var router = express.Router();
+constexpress = require('express');
+constrouter = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  var users = [
+  constusers = [
     {
       id: 1,
   	  username: "express"
